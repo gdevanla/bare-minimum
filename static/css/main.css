@@ -33,12 +33,20 @@ nav a:hover {
 }
 
 nav {
-//  border: solid;
   color: #aaa;
   margin: 0 auto 2em auto;
   padding: 0;
-  text-align: right;
   font-family: inconsolata;
+  text-align: right;
+  display: inline;
+}
+
+a.title{
+  text-decoration: none;
+}
+
+header {
+  text-align: left;
 }
 
 nav ul{
@@ -53,7 +61,7 @@ body {
   margin: 2em auto 2em auto;
   text-align: center;
   background-color: white;
-  font: 14px inconsolata, helvetica, arial, clean, sans-serif;
+  font: 14px verdana, inconsolata, helvetica, arial, clean, sans-serif;
   *font-size: small;
   //border: solid;
 }
@@ -61,11 +69,16 @@ body {
 article{
   color: #444;
   text-align: justify;
+  *font-size: medium;
 }
 
 section {
   margin: 2em auto 10em auto;
   text-align: justify;
+}
+
+section li {
+  line-height:150%
 }
 
 footer, footer a {

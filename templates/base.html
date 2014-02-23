@@ -50,15 +50,18 @@
 
 <body>
     <header>
-        <nav><ul>
+        <span><a class="title" href="/index.html"><h1>*code*</h1></a></span>
+        <nav>
+            <ul>
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}
-        </ul></nav>
+            </ul>
+        </nav>
     </header><!-- /#banner -->
-
     {% block content %}{% endblock %}
     <footer>
+        <hr>
         <div class="social">
             <ul>
                 {% for name, link in SOCIAL %}

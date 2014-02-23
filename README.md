@@ -9,7 +9,8 @@ Steps to use the theme:
 
 `git clone https://github.com/gdevanla/bare-minimum.git bare-minimum`
 
-- Update your blog's pelicanconf.py.
-THEME =  <folder to the cloned folder>
+- Update your blog's `pelicanconf.py`
+
+`THEME =  <folder to the cloned folder>`
 
 Enjoy!

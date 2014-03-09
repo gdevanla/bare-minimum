@@ -1,7 +1,7 @@
 bare-minimum
 ============
 
-This is a very simple theme for use with the [Pelican](https://github.com/getpelican/pelican).
+This is a very simple theme for use with the [Pelican](https://github.com/getpelican/pelican).  I use this theme for my [blog](http://devanla.com/).
 
 Steps to use the theme:
 

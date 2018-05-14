@@ -57,11 +57,11 @@ nav li {
 }
 
 body {
-  width: 600px;
+  width: 800px;
   margin: 2em auto 2em auto;
   text-align: center;
   background-color: white;
-  font: 14px verdana, inconsolata, helvetica, arial, clean, sans-serif;
+  font: 16px verdana, inconsolata, helvetica, arial, clean, sans-serif;
   *font-size: small;
   //border: solid;
 }
@@ -105,9 +105,30 @@ div.social li {
  }
 
 pre {
-  border-top: 1px solid #bbb;
-  border-bottom: 1px solid #bbb;
-  padding: 20px 0;
-  margin: 15px 0;
-  font-weight: normal
+  padding: 10px 0;
+  margin: 10px 0;
+  font-weight: normal;
+  font-size: 16px;
+  overflow: auto;
+}
+
+linenos {
+    font-size: 10px;
+}
+
+/* code { */
+/*     font-size: 15px; */
+/*     background-color: white; */
+/* } */
+
+code {
+    padding: 1px 5px 1px 5px;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    background-color: #eeeeee;
+    margin: 1px auto 1px auto;
+    padding: 1px;
+    width: 99%;
+    /* Don't wrap its contents, and show scrollbars. */
+    white-space: nowrap;
+    overflow: auto;
 }
